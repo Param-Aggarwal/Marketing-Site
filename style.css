@@ -1,0 +1,132 @@
+body{
+  background-color: #8E0505;
+}
+
+/* whole frame */
+.flexbox-container1{
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+}
+
+/* first type of list */
+.flexbox-item1-1{
+  display: flex;
+  justify-content: flex-start;
+  align-items: stretch;
+  flex-wrap: wrap;
+}
+
+.flexbox-item1-1-1{
+  background-color: #fff;
+  margin: 10px 10px;
+  text-align: center;
+  padding: 15px 15px 5px;
+  border-radius: 3%;
+  flex-grow: 2;
+
+}
+
+.button1{
+  color: #FAEDF0;
+  font-weight: lighter;
+}
+
+.shampoo{
+  height: 150px;
+  width: auto;
+}
+
+.button_span{
+  padding-left: 20px;
+  font-weight: bold;
+  font-size: 1.2em;
+}
+
+.flex{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+
+.price{
+  color: #6D8299;
+}
+
+.details{
+  color: #6D8299;
+}
+
+/* second type of list */
+.flexbox-item1-2,
+.flexbox-item1-3{
+  background-color: #fff;
+  margin: 10px 10px;
+  display: flex;
+  justify-content: flex-end;
+  flex-wrap: wrap;
+  border-top-left-radius: 5%;
+  border-top-right-radius: 2%;
+  position: relative;
+}
+
+.flexbox-item1-2-2{
+  text-align: center;
+  margin: 40px 10px 20px;
+  flex-grow: 1;
+}
+
+.box{
+  display: inline-block;
+  width: 100px;
+  height: 50px;
+  background: #F90716;
+  border-top-left-radius: 10px;
+  text-align: center;
+}
+
+.arrow{
+  position: absolute;
+  left: 100px;
+  width: 0;
+  height: 0;
+  border-top: 25px solid transparent;
+  border-bottom: 25px solid transparent;
+  border-left: 25px solid #F90716;
+}
+
+.introduction{
+  padding: 20px 30px;
+  font-size: 1.5rem;
+  text-align: center;
+}
+
+.logo{
+  width: 120px;
+}
+
+.description{
+  margin-top: 15px;
+  font-weight: bold;
+}
+
+
+/* third list */
+
+.flexbox-item1-3-2{
+  text-align: center;
+  margin: 20px 10px 5px;
+  flex-grow: 1;
+
+}
+
+.discounted-price{
+  margin-top: 15px;
+  font-weight: bold;
+}
+
+.actual-price{
+  margin-top: 0;
+  color: #6D8299;
+}
