@@ -16,6 +16,7 @@ body{
   justify-content: flex-start;
   align-items: stretch;
   flex-wrap: wrap;
+  flex-grow: 1;
 }
 
 .flexbox-item1-1-1{
@@ -69,6 +70,7 @@ body{
   border-top-left-radius: 5%;
   border-top-right-radius: 2%;
   position: relative;
+  flex-grow: 1;
 }
 
 .flexbox-item1-2-2{
